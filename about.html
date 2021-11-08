@@ -6,13 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zachary | Front End Web Developer</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- CSS-->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
     <!-- Header Start-->
     <header>
         <!-- Title (Clickable)-->
-        <a href="index.html">
+        <a id="logo" href="index.html">
             <h1>Zachary</h1>
             <h2>Front End Web Developer</h2>
         </a>
@@ -20,7 +27,7 @@
         <nav>
             <ul>
                 <li><a href="index.html">Portfolio</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#" class="selected">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
 
@@ -32,7 +39,7 @@
         <!--First Column w/ image start-->
         <section>
             <!-- Profile Image-->
-            <img src="./img/profile.jpg" alt="Image of myself">
+            <img class="profile-photo" src="./img/profile.jpg" alt="Image of myself">
         </section>
         <!--First Column w/ image emd-->
 
@@ -45,16 +52,17 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum ipsa eligendi atque aspernatur. Iusto
                 perferendis quidem sapiente nulla molestias doloremque, dolorem delectus modi aperiam fugiat ratione
                 laboriosam? Officia, pariatur architecto!</p>
-            <p>If you would like to follow my twitter my username is <a href="https://twitter.com/ZachMenefee" target="_blank">@ZachMenefee</a></p>
+            <p>If you would like to follow my twitter my username is <a href="https://twitter.com/ZachMenefee"
+                    target="_blank">@ZachMenefee</a></p>
         </section>
         <!--Second Column end-->
     </div>
     <!-- Footer Begin-->
     <Footer>
         <!-- Clickable Twitter Link-->
-        <a href="https://twitter.com" target="_blank"><img src="./img/twitter-wrap.png" alt="Twitter Logo"></a>
+        <a href="https://twitter.com" target="_blank"><img class="social-icon" src="./img/twitter-wrap.png" alt="Twitter Logo"></a>
         <!-- Clickable Facebook Link-->
-        <a href="https://Facebook.com" target="_blank"><img src="./img/facebook-wrap.png" alt="Facebook Logo"></a>
+        <a href="https://Facebook.com" target="_blank"><img class="social-icon" src="./img/facebook-wrap.png" alt="Facebook Logo"></a>
         <p>&copy; 2021 Zachary Menefee</p>
     </Footer>
     <!-- Footer End-->
